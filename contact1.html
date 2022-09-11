@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact1.css">
+</head>
+<body>
+    <div class="cones">
+        <forme onsubmit="sendEmail(); reset(); return false">
+            <h3>CONTACT ME</h3>
+            <label for="name">name</label>
+            <input type="text" id="name" placeholder="your name" required>
+            <label for="name">email</label>
+            <input type="email" id="email" placeholder="Email id" required>
+            <label for="name">message</label>
+            <textarea id="message" rows="4" placeholder="write your message here..."></textarea>
+            <!-- code for option select-->
+    <label for="select">Choose a gender:</label>
+    
+    <select name="pets" id="pet-select">
+        <option value="">select gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+            <button type="submit">Send</button>
+        </forme>
+    </div>
+
+</body>
+</html>
